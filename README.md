@@ -1,3 +1,10 @@
+# Bootstrap v4 for Coding Blocks
+Customised build of Bootstrap with support for Coding Blocks theme.
+
+Download from CDN -
+https://www.jsdelivr.com/package/npm/@coding-blocks/bootstrap?path=dist
+
+
 <p align="center">
   <a href="https://getbootstrap.com/">
     <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" alt="Bootstrap logo" width=72 height=72>
