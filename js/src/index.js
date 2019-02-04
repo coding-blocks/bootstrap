@@ -8,12 +8,13 @@ import Modal from './modal'
 import Popover from './popover'
 import Scrollspy from './scrollspy'
 import Tab from './tab'
+import Toast from './toast'
 import Tooltip from './tooltip'
 import Util from './util'
 
 /**
  * --------------------------------------------------------------------------
- * Bootstrap (v4.1.3): index.js
+ * Bootstrap (v4.2.1): index.js
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
@@ -46,5 +47,6 @@ export {
   Popover,
   Scrollspy,
   Tab,
+  Toast,
   Tooltip
 }
