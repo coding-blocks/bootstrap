@@ -3,15 +3,24 @@
 // Easily pump out default styles, as well as :hover, :focus, :active,
 // and disabled options for all buttons
 
-@mixin button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%)) {
+@mixin button-variant(
+  $background,
+  $background-accent, $border,
+  $hover-background: darken($background, 7.5%),
+  $hover-background-accent: lighten($background-accent, 7.5%),
+  $hover-border: darken($border, 10%),
+  $active-background: darken($background, 10%),
+  $active-background-accent: darken($background-accent, 10%),
+  $active-border: darken($border, 12.5%)
+) {
   color: color-yiq($background);
-  @include gradient-bg($background);
+  @include gradient-x($background-accent, $background);
   border-color: $border;
   @include box-shadow($btn-box-shadow);
 
   @include hover() {
     color: color-yiq($hover-background);
-    @include gradient-bg($hover-background);
+    @include gradient-x($hover-background, $hover-background-accent);
     border-color: $hover-border;
   }
 
@@ -44,10 +53,7 @@
   &:not(:disabled):not(.disabled).active,
   .show > &.dropdown-toggle {
     color: color-yiq($active-background);
-    background-color: $active-background;
-    @if $enable-gradients {
-      background-image: none; // Remove the gradient for the pressed/active state
-    }
+    @include gradient-x($active-background-accent, $active-background);
     border-color: $active-border;
 
     &:focus {
