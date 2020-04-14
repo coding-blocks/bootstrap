@@ -39,7 +39,7 @@ $indigo:  #553180 !default;
 $purple:  #6f42c1 !default;
 $pink:    #df4d7b !default;
 $red:     #e74e4b !default;
-$orange:  #e26213 !default;
+$orange:  #eb8b1e !default;
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
@@ -69,7 +69,7 @@ $colors: map-merge(
 $primary:       $red !default;
 $secondary:     $indigo !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $blue !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-300 !default;
@@ -77,8 +77,8 @@ $dark:          $gray-800 !default;
 
 $primary-accent:       $orange !default;
 $secondary-accent:     $gray-900 !default;
-$success-accent:       $cyan !default;
-$info-accent:          $blue !default;
+$success-accent:       $teal !default;
+$info-accent:          $cyan !default;
 $warning-accent:       $orange !default;
 $danger-accent:        $pink !default;
 $light-accent:         $gray-100 !default;
@@ -477,7 +477,7 @@ $btn-border-radius:           $border-radius !default;
 $btn-border-radius-lg:        $border-radius-lg !default;
 $btn-border-radius-sm:        $border-radius-sm !default;
 
-$btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+$btn-transition:              color .3s ease-in-out, background-color .3s ease-in-out, background-position .3s ease-in-out, border-color .3s ease-in-out, box-shadow .3s ease-in-out !default;
 
 
 // Forms

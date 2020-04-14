@@ -50,12 +50,12 @@ download:
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
-  css:              "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  css_hash:         "sha384-dv/rP1ct7odGDULAsjjuh1hVGqqmqqpQ1y6djzAtB2lSnlYQojN+GLu+rUcZVko5"
-  js:               "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  js_hash:          "sha384-twZCP9GBi3VvITGOWPt9IxQUxMIppmy8NM67LUCEPr/N0lIrY2E9ShY/xbXS4c8g"
-  js_bundle:        "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
-  js_bundle_hash:   "sha384-+s1e9FHIbc+l53vZ8/qkXVlyt2NJiGh7sraRhlZzbbkhoZo1PNGdMahXeTUKgoKD"
+  css:              "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+  css_hash:         "sha256-dhhuNk5g8NsqZgTqI0tiF4ecK+Ma7WzDDOW5vbS3HYQ="
+  js:               "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+  js_hash:          "sha256-v7A7zygL3TUdH3SAarfkXE25dGiHEu1rPor7vcLeA+8="
+  js_bundle:        "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"
+  js_bundle_hash:   "sha256-YOH90C6B0O3tv+a3LvKlKCJNBXcGEfrHb1y5e0Be89o="
   jquery:           "https://code.jquery.com/jquery-3.4.1.slim.min.js"
   jquery_hash:      "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
   popper:           "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"

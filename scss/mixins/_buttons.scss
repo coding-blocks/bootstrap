@@ -14,14 +14,16 @@
   $active-border: darken($border, 12.5%)
 ) {
   color: color-yiq($background);
-  @include gradient-x($background-accent, $background);
+  @include gradient-x-three-colors($background, $background-accent, 50%, $background);
+  border-width: 0;
   border-color: $border;
   @include box-shadow($btn-box-shadow);
+  background-size: 200%;
 
   @include hover() {
     color: color-yiq($hover-background);
-    @include gradient-x($hover-background, $hover-background-accent);
     border-color: $hover-border;
+    background-position: 100%;
   }
 
   &:focus,
