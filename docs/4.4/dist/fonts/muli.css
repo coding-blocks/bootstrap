@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Muli';
     font-style: normal;
-    src: 'Muli.woff2' format('woff2-variations');
+    src: url('Muli.woff2') format('woff2-variations');
     font-weight: 1 999;
 }
 
 @font-face {
     font-family: 'Muli';
     font-style: italic;
-    src: 'Muli-Italic.woff2' format('woff2-variations');
+    src: url('Muli-Italic.woff2') format('woff2-variations');
     font-weight: 1 999;
 }
 /*# sourceMappingURL=muli.css.map */
