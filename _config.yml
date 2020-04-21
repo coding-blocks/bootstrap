@@ -51,11 +51,11 @@ download:
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
   css:              "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-  css_hash:         "sha256-dhhuNk5g8NsqZgTqI0tiF4ecK+Ma7WzDDOW5vbS3HYQ="
+  css_hash:         "sha384-vA5qhycCinNfpWLetfwKo4ULutM4Qo2pLLnixilyAUcvXY1PWYJg04JSZE3i+yDR"
   js:               "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-  js_hash:          "sha256-v7A7zygL3TUdH3SAarfkXE25dGiHEu1rPor7vcLeA+8="
+  js_hash:          "sha384-Ho5WhvBdjS0mvhMfXqOYEa2aUDKroMAUa6c5He1SuUFmgClskSGFD9xDgrcuOqLq"
   js_bundle:        "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"
-  js_bundle_hash:   "sha256-YOH90C6B0O3tv+a3LvKlKCJNBXcGEfrHb1y5e0Be89o="
+  js_bundle_hash:   "sha384-uj8ZGn7Ga73WfBx0DD97fThigeHS2j0QC+stV27+GWQ2ZAcFJ9UGfYKt1V31wbYA"
   jquery:           "https://code.jquery.com/jquery-3.4.1.slim.min.js"
   jquery_hash:      "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
   popper:           "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"

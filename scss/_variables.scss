@@ -303,7 +303,7 @@ $embed-responsive-aspect-ratios: join(
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      "Poppins", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji" !default;
+$font-family-sans-serif:      "Muli", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
@@ -330,12 +330,12 @@ $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      $spacer / 2 !default;
-$headings-font-family:        "Oswald" !default;
+$headings-font-family:        "Muli" !default;
 $headings-font-weight:        700 !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              null !default;
 
-$display-font-family:         "Oswald" !default;
+$display-font-family:         "Muli" !default;
 
 $display1-size:               6rem !default;
 $display2-size:               5.5rem !default;
