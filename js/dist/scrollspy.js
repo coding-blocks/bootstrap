@@ -1,5 +1,5 @@
 /*!
-  * Bootstrap scrollspy.js v4.4.2-beta.1 (https://getbootstrap.com/)
+  * Bootstrap scrollspy.js v4.4.2-beta.2 (https://getbootstrap.com/)
   * Copyright 2011-2020 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
