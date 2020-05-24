@@ -36,8 +36,8 @@ social_image_path:  /docs/4.5/assets/brand/bootstrap-social.png
 social_logo_path:   /docs/4.5/assets/brand/bootstrap-social-logo.png
 
 # Custom variables
-current_version:      4.5.0
-current_ruby_version: 4.5.0
+current_version:      4.5.1
+current_ruby_version: 4.5.1
 docs_version:         4.5
 github_org:           "https://github.com/twbs"
 repo:                 "https://github.com/twbs/bootstrap"
@@ -55,12 +55,12 @@ download:
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
-  css:              "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-  css_hash:         "sha384-uP0tMLpW22cxL666ssNTK1YrInH59f1KZtnkedXlCTh5a52TCPuLBWjJJKrONfZp"
-  js:               "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-  js_hash:          "sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-  js_bundle:        "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"
-  js_bundle_hash:   "sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
+  css:              "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.1/dist/css/bootstrap.min.css"
+  css_hash:         "sha384-P+73MEPbi2W12NptobQzBssjb74uvSeHTVR1PDgKqIUcrgaRNcLnq0sHw5ouHIie"
+  js:               "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.1/dist/js/bootstrap.min.js"
+  js_hash:          "sha384-WWYc09ghsiyYRcUcxbBCGK6b1WiPnGvOakRLWLLw6H00c09CGRfnn9m6HGSVG8ce"
+  js_bundle:        "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.1/dist/js/bootstrap.bundle.min.js"
+  js_bundle_hash:   "sha384-/iFy7pZ7q09PW+geFHIJe4EMgHfd9R1ux1Mi1XA0gPstjKcG2WGgMKkGN7dkKJBL"
   jquery:           "https://code.jquery.com/jquery-3.4.1.slim.min.js"
   jquery_hash:      "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
   popper:           "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
