@@ -49,9 +49,9 @@ themes:               "https://themes.getbootstrap.com"
 icons:                "https://icons.getbootstrap.com"
 
 download:
-  source:           "https://github.com/twbs/bootstrap/archive/v4.5.0.zip"
-  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.5.0/bootstrap-4.5.0-dist.zip"
-  dist_examples:    "https://github.com/twbs/bootstrap/releases/download/v4.5.0/bootstrap-4.5.0-examples.zip"
+  source:           "https://github.com/coding-blocks/bootstrap/archive/v4.5.1.zip"
+  dist:             "https://github.com/coding-blocks/bootstrap/releases/download/v4.5.1/bootstrap-4.5.1-dist.zip"
+  dist_examples:    "https://github.com/coding-blocks/bootstrap/releases/download/v4.5.1/bootstrap-4.5.1-examples.zip"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
