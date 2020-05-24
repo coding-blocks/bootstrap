@@ -26,6 +26,10 @@ h6, .h6 { @include font-size($h6-font-size); }
 }
 
 // Type display classes
+.display-1, .display-2, .display-3, .display-4 {
+  font-family: $display-font-family;
+}
+
 .display-1 {
   @include font-size($display1-size);
   font-weight: $display1-weight;

@@ -59,7 +59,7 @@ Pull in Bootstrap's **source files** into nearly any project with some of the mo
 Install Bootstrap in your Node.js powered apps with [the npm package](https://www.npmjs.com/package/bootstrap):
 
 {% highlight sh %}
-npm install bootstrap
+npm install @coding-blocks/bootstrap
 {% endhighlight %}
 
 `require('bootstrap')` will load all of Bootstrap's jQuery plugins onto the jQuery object. The `bootstrap` module itself does not export anything. You can manually load Bootstrap's jQuery plugins individually by loading the `/js/*.js` files under the package's top-level directory.
