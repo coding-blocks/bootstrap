@@ -36,8 +36,8 @@ social_image_path:  /docs/4.5/assets/brand/bootstrap-social.png
 social_logo_path:   /docs/4.5/assets/brand/bootstrap-social-logo.png
 
 # Custom variables
-current_version:      4.5.1
-current_ruby_version: 4.5.1
+current_version:      4.5.2
+current_ruby_version: 4.5.2
 docs_version:         4.5
 github_org:           "https://github.com/twbs"
 repo:                 "https://github.com/twbs/bootstrap"
@@ -49,18 +49,18 @@ themes:               "https://themes.getbootstrap.com"
 icons:                "https://icons.getbootstrap.com"
 
 download:
-  source:           "https://github.com/coding-blocks/bootstrap/archive/v4.5.1.zip"
-  dist:             "https://github.com/coding-blocks/bootstrap/releases/download/v4.5.1/bootstrap-4.5.1-dist.zip"
-  dist_examples:    "https://github.com/coding-blocks/bootstrap/releases/download/v4.5.1/bootstrap-4.5.1-examples.zip"
+  source:           "https://github.com/coding-blocks/bootstrap/archive/v4.5.2.zip"
+  dist:             "https://github.com/coding-blocks/bootstrap/releases/download/v4.5.2/bootstrap-4.5.2-dist.zip"
+  dist_examples:    "https://github.com/coding-blocks/bootstrap/releases/download/v4.5.2/bootstrap-4.5.2-examples.zip"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
-  css:              "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.1/dist/css/bootstrap.min.css"
-  css_hash:         "sha384-P+73MEPbi2W12NptobQzBssjb74uvSeHTVR1PDgKqIUcrgaRNcLnq0sHw5ouHIie"
-  js:               "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.1/dist/js/bootstrap.min.js"
-  js_hash:          "sha384-WWYc09ghsiyYRcUcxbBCGK6b1WiPnGvOakRLWLLw6H00c09CGRfnn9m6HGSVG8ce"
-  js_bundle:        "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.1/dist/js/bootstrap.bundle.min.js"
-  js_bundle_hash:   "sha384-/iFy7pZ7q09PW+geFHIJe4EMgHfd9R1ux1Mi1XA0gPstjKcG2WGgMKkGN7dkKJBL"
+  css:              "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/css/bootstrap.min.css"
+  css_hash:         "sha384-qQEE8jdKJvtljxvtgWREfDOl721Sa1Qs8a1huL0PjJo3duiJ2wXnwTIRnbd/cTjY"
+  js:               "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/js/bootstrap.min.js"
+  js_hash:          "sha384-5kiNX2pRMEoJOeg8N1XzHzWAotDv8A4fZW6cFGvsDgSZmMuECwtOeZ1ta0eO7DBD"
+  js_bundle:        "https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"
+  js_bundle_hash:   "sha384-YSCObxsVvH3+sEhLqS+CE3PDE0Nql3XRyW0aVzBO18rSjIuxBHuwAp+u2zD7SMSs"
   jquery:           "https://code.jquery.com/jquery-3.4.1.slim.min.js"
   jquery_hash:      "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
   popper:           "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
